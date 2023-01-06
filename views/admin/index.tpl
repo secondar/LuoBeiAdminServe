@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+  <meta name=renderer content=webkit>
+  <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel=icon href=/static/favicon.ico>
+  <title>萝北后台管理系统</title>
+  <link href=/static/admin/css/app.077f5a69.css rel=preload as=style>
+  <link href=/static/admin/css/chunk-libs.3dfb7769.css rel=preload as=style>
+  <link href=/static/admin/js/app.ed9ce5fc.js rel=preload as=script>
+  <link href=/static/admin/js/chunk-elementUI.788f4922.js rel=preload as=script>
+  <link href=/static/admin/js/chunk-libs.a9012a31.js rel=preload as=script>
+  <link href=/static/admin/css/chunk-libs.3dfb7769.css rel=stylesheet>
+  <link href=/static/admin/css/app.077f5a69.css rel=stylesheet>
+</head>
+
+<body>
+  <div id=app></div>
+  <script>(function (e) { function t(t) { for (var r, o, a = t[0], d = t[1], i = t[2], f = 0, l = []; f < a.length; f++)o = a[f], Object.prototype.hasOwnProperty.call(u, o) && u[o] && l.push(u[o][0]), u[o] = 0; for (r in d) Object.prototype.hasOwnProperty.call(d, r) && (e[r] = d[r]); s && s(t); while (l.length) l.shift()(); return c.push.apply(c, i || []), n() } function n() { for (var e, t = 0; t < c.length; t++) { for (var n = c[t], r = !0, o = 1; o < n.length; o++) { var a = n[o]; 0 !== u[a] && (r = !1) } r && (c.splice(t--, 1), e = d(d.s = n[0])) } return e } var r = {}, o = { runtime: 0 }, u = { runtime: 0 }, c = []; function a(e) { return d.p + "static/admin/js/" + ({}[e] || e) + "." + { "chunk-03dc0164": "4b03a35f", "chunk-1db55b02": "549db788", "chunk-2d2105d3": "404da312", "chunk-2d230fe7": "3bd3f709", "chunk-4779e74f": "c2c9eb0f", "chunk-792ae838": "aaf693fc", "chunk-9db8cd2c": "19563085", "chunk-2191d158": "a6479d07" }[e] + ".js" } function d(t) { if (r[t]) return r[t].exports; var n = r[t] = { i: t, l: !1, exports: {} }; return e[t].call(n.exports, n, n.exports, d), n.l = !0, n.exports } d.e = function (e) { var t = [], n = { "chunk-03dc0164": 1, "chunk-1db55b02": 1, "chunk-4779e74f": 1, "chunk-792ae838": 1, "chunk-9db8cd2c": 1, "chunk-2191d158": 1 }; o[e] ? t.push(o[e]) : 0 !== o[e] && n[e] && t.push(o[e] = new Promise((function (t, n) { for (var r = "static/admin/css/" + ({}[e] || e) + "." + { "chunk-03dc0164": "41bb142a", "chunk-1db55b02": "e62fd6b2", "chunk-2d2105d3": "31d6cfe0", "chunk-2d230fe7": "31d6cfe0", "chunk-4779e74f": "d2130706", "chunk-792ae838": "8d41f3ae", "chunk-9db8cd2c": "84f98409", "chunk-2191d158": "4bdb3de9" }[e] + ".css", u = d.p + r, c = document.getElementsByTagName("link"), a = 0; a < c.length; a++) { var i = c[a], f = i.getAttribute("data-href") || i.getAttribute("href"); if ("stylesheet" === i.rel && (f === r || f === u)) return t() } var l = document.getElementsByTagName("style"); for (a = 0; a < l.length; a++) { i = l[a], f = i.getAttribute("data-href"); if (f === r || f === u) return t() } var s = document.createElement("link"); s.rel = "stylesheet", s.type = "text/css", s.onload = t, s.onerror = function (t) { var r = t && t.target && t.target.src || u, c = new Error("Loading CSS chunk " + e + " failed.\n(" + r + ")"); c.code = "CSS_CHUNK_LOAD_FAILED", c.request = r, delete o[e], s.parentNode.removeChild(s), n(c) }, s.href = u; var h = document.getElementsByTagName("head")[0]; h.appendChild(s) })).then((function () { o[e] = 0 }))); var r = u[e]; if (0 !== r) if (r) t.push(r[2]); else { var c = new Promise((function (t, n) { r = u[e] = [t, n] })); t.push(r[2] = c); var i, f = document.createElement("script"); f.charset = "utf-8", f.timeout = 120, d.nc && f.setAttribute("nonce", d.nc), f.src = a(e); var l = new Error; i = function (t) { f.onerror = f.onload = null, clearTimeout(s); var n = u[e]; if (0 !== n) { if (n) { var r = t && ("load" === t.type ? "missing" : t.type), o = t && t.target && t.target.src; l.message = "Loading chunk " + e + " failed.\n(" + r + ": " + o + ")", l.name = "ChunkLoadError", l.type = r, l.request = o, n[1](l) } u[e] = void 0 } }; var s = setTimeout((function () { i({ type: "timeout", target: f }) }), 12e4); f.onerror = f.onload = i, document.head.appendChild(f) } return Promise.all(t) }, d.m = e, d.c = r, d.d = function (e, t, n) { d.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: n }) }, d.r = function (e) { "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, d.t = function (e, t) { if (1 & t && (e = d(e)), 8 & t) return e; if (4 & t && "object" === typeof e && e && e.__esModule) return e; var n = Object.create(null); if (d.r(n), Object.defineProperty(n, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var r in e) d.d(n, r, function (t) { return e[t] }.bind(null, r)); return n }, d.n = function (e) { var t = e && e.__esModule ? function () { return e["default"] } : function () { return e }; return d.d(t, "a", t), t }, d.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, d.p = "/", d.oe = function (e) { throw console.error(e), e }; var i = window["webpackJsonp"] = window["webpackJsonp"] || [], f = i.push.bind(i); i.push = t, i = i.slice(); for (var l = 0; l < i.length; l++)t(i[l]); var s = f; n() })([]);</script>
+  <script src=/static/admin/js/chunk-elementUI.788f4922.js></script>
+  <script src=/static/admin/js/chunk-libs.a9012a31.js></script>
+  <script src=/static/admin/js/app.ed9ce5fc.js></script>
+</body>
+
+</html>
