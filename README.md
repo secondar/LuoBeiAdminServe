@@ -26,8 +26,8 @@
 - 系统配置 > 仅有配置系统的名称等，没有啥具体用处
 - 文章管理 > 普通文章 CURD
 
- <img width="100%" src="static/1.png">
- <img width="100%" src="static/2.png">
+ <img width="100%" src="https://www.bugquit.com/bg/ad/1.png">
+ <img width="100%" src="https://www.bugquit.com/bg/ad/2.png">
  
 ## 准备
 
