@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="320" src="static/logo.png">
+  <img width="320" src="https://www.bugquit.com/bg/ad/logo.png">
 </p>
 
 ## 由来
